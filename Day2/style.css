@@ -1,0 +1,22 @@
+.fitems{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: aqua;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: black;
+    color: white;
+    border-width: 10px;
+    border-style: double;
+}
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly ;
+}
+
+.item{
+    order: 2;
+    flex-grow: 3;
+}
