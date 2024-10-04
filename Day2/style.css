@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .fitems{
     width: 200px;
     height: 200px;
@@ -14,6 +19,7 @@
     display: flex;
     /* flex-direction: column; */
     justify-content: space-evenly ;
+    gap: 20px;
 }
 
 .item{
