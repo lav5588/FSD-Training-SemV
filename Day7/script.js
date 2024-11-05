@@ -1,6 +1,6 @@
 
 
-const GITHUB_API_URL = "https:/api.github.com/users?per_page=10"
+const GITHUB_API_URL = "https:/api.github.com/users?per_page=100"
 const fetchGithubUsers = async() => {
     let users;
     try {
